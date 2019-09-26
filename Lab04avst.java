@@ -21,6 +21,12 @@ public class Lab04avst
 
 
 
-		System.out.println();
+		System.out.print("Principal:\t\t");
+		System.out.println("$" + principal);
+		System.out.print("Annual Rate:\t\t");
+		System.out.println(annualRate + "%");
+		System.out.print("Number of Years:\t");
+		System.out.println(numYears);
+		
 	}
 }
