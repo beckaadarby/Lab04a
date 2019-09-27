@@ -31,7 +31,7 @@ public class Lab04avst
 		System.out.print("Total Interest:\t\t");
 
 		double totalInterestPaid = (TPayments - principal);
-		System.out.println(totalInterestPaid);
+		System.out.println((double)(Math.round(totalInterestPaid* 100)) / 100);
 
 
 
