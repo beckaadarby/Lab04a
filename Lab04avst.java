@@ -24,10 +24,10 @@ public class Lab04avst
 		double monthlyInterest = ((annualRate / 100) / 12);
 		double numerator = Math.pow ((1 + monthlyInterest),(numYears * 12));
 		double monthlyPayment = (((monthlyInterest * numerator) / (numerator - 1)) * principal);
-		System.out.println(monthlyPayment);
+		System.out.println((double)(Math.round(monthlyPayment* 100)) / 100);
 		System.out.print("Total Payments:\t\t");
 		double TPayments = ((monthlyPayment*12) * numYears);
-		System.out.println(TPayments);
+		System.out.println((double)(Math.round(TPayments* 100)) / 100);
 		System.out.print("Total Interest:\t\t");
 
 		double totalInterestPaid = (TPayments - principal);
